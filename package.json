@@ -1,0 +1,25 @@
+{
+  "name": "halving-blog",
+  "version": "1.0.0",
+  "description": "Bitcoin halving explanation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tw:build": "tailwind -i ./src/tailwind.css -o ./public/tailwind.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xtiv/halving-blog.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xtiv/halving-blog/issues"
+  },
+  "homepage": "https://github.com/xtiv/halving-blog#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.7",
+    "postcss": "^8.4.13",
+    "tailwindcss": "^3.0.24"
+  }
+}
