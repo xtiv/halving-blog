@@ -7,36 +7,65 @@
     <link rel="stylesheet" href="./tailwind.css">
     <title>Halving de Bitcoin</title>
 </head>
-<body>
+<body class="lg:px-96">
     <header>
         <nav></nav>
     </header>
     <main>
         <section>
-            <div id="home-inicio" class="w-full h-96 flex-none">
-                <div class="w-full h-96 p-8 space-y-2">
-                    <div id="img-halving" class=" h-2/3 bg-chip_btc bg-center bg-cover rounded-xl shadow-md">
+            <div id="home-inicio" class="w-full h-auto flex-none">
+                <div class="w-full h-auto p-8 space-y-2">
+                    <div id="img-halving" class="w-full h-48 bg-amber-300 bg-center bg-cover rounded-xl shadow-lg">
                     </div>
-                    <h1 class="font-bold flex bg-white justify-center items-center pt-3 text-xl ">¿Qué es el Halving?</h1>
-                    <div class="w-full h-1/3 flex justify-center items-center">
-                        <p class="font-serif text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam reprehenderit repellat velit animi commodi, labore adipisci voluptas porro cumque aut. .</p>
+                    <h1 class="font-bold flex  justify-center items-center pt-6 text-3xl ">¿Qué es el Halving?</h1>
+                    <div class="w-full h-auto pt-3 flex flex-col">
+                        <p class="font-serif text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam reprehenderit repellat velit animi commodi, labore adipisci voluptas porro cumque aut. .</p>
+                        <p class="font-serif text-lg">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam vitae amet eveniet quod minus veniam saepe dolor accusantium excepturi sint nisi laborum sunt, perferendis culpa, molestiae hic aliquam laboriosam? Rem.</p>
                     </div>
-                </div>
-            
-            </div>
-            <div id="home-2" class="w-full h-64 px-8">
-                <div class="w-full h-2/3 flex space-x-2 pt-5">
-                    <div class="h-full w-1/2 rounded-md bg-cover bg-center bg-halving_1 shadow-xl"></div>
-                    <div class="w-1/2 h-auto flex bg-center bg-cover rounded-md shadow-xl bg-halving_2"></div>
-                </div>
-                <div class="pt-5 w-full h-auto">
-                    <p class="font-serif text-sm">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste dolor distinctio placeat at ut ex officia est dicta molestiae obcaecati.</p>
                 </div>
             </div>
-
+        </section>
+        <section id="home-charts" class="px-6 flex items-center justify-center">
+            <div class="w-auto h-52 items-center mt-4 overflow-x-auto overscroll-x-contain flex space-x-6 scrollbar overflow-y-hidden">
+                <div class="chart_card">
+                    <div class="h-40 rounded-lg bg-sky-200 bg-center bg-cover">
+                    </div>
+                    <p class="font-semibold text-md flex justify-center items-center">Gráfico hasta 2014</p>
+                </div>
+                <div class="chart_card">
+                    <div class="h-40 rounded-lg bg-emerald-200 bg-center bg-cover">
+                    </div>
+                    <p class="font-semibold text-md flex justify-center items-center">Gráfico de 2014-2017</p>
+                </div>
+                <div class="chart_card">
+                    <div class="h-40 rounded-lg bg-amber-200 bg-center bg-cover">
+                    </div>
+                    <p class="font-semibold text-md flex justify-center items-center">Gráfico de 2017-2021</p>
+                </div>
+            </div>
+        </section>
+        <section id="projection" class="p-6">
+            <div>
+                <h2 class="font-bold text-2xl flex item-center justify-center">Proyección esperada para 2024-2025</h2>
+                <p class="font-serif text-lg pt-6 lg:flex lg:justify-center"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Id molestias quasi expedita? Molestias quasi quae pariatur deleniti a sapiente esse earum? Culpa quam magnam possimus, laboriosam aliquam minima. Similique, corrupti.</p>
+            </div>
+            <div class="pt-6 space-y-3 flex flex-col justify-center items-center ">
+                <p class="font-serif font-semibold text-2xl  pt-4">Calculadora para el halving</p>
+                <div class=" w-full flex space-x-4 h-auto pt-6 lg:items-center lg:justify-center">
+                    <input class="w-48 h-12 bg-gray-100 pl-4 rounded-2xl" placeholder="Inversión" type="number">
+                    <button class="w-20 flex justify-center items-center h-12 rounded-2xl bg-amber-200" type="submit">Calcular</button>
+                </div>
+                <div class="flex space-x-5 w-64 h-12 bg-emerald-100 justify-center  rounded-2xl p-6">
+                    <p class="flex justify-center items-center font-normal text-lg">Resultado:</p>
+                    <p class="flex justify-center items-center font-normal text-lg" >100</p>
+                </div>
+                
+            </div>
         </section>
     </main>
-    <footer></footer>
+    <footer class="w-full h-32 bg-gray-300">
+        
+    </footer>
     
 </body>
 </html>
