@@ -2,9 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
-.chartSize {
-    @apply w-48 h-64 shadow-md rounded-lg flex-none transform transition-all hover:-translate-y-4 hover:shadow-xl
+.chart_card {
+    @apply w-48 h-48 shadow-md rounded-lg flex-none transform transition-all hover:-translate-y-4 hover:shadow-xl
 }
-.Graphics {
-    @apply w-full h-full bg-red-400
-}
+
+@layer utilities {
+    input[type="number"]::-webkit-inner-spin-button,
+    input[type="number"]::-webkit-outer-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+    }
+  }

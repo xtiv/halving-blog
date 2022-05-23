@@ -5,7 +5,9 @@ module.exports = {
       backgroundImage: {
         chip_btc: "url('/assets/img/chip_btc.webp')",
         halving_1: "url('/assets/img/halving-1.png')",
-        halving_2: "url('/assets/img/halving-2.png')"
+        halving_2: "url('/assets/img/halving-2.png')",
+        donativo: "url('/assets/img/heart_money.png')",
+        btc_qr: "url('/assets/img/btc_address.jpeg')",
       }
     },
   },

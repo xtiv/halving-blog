@@ -7,38 +7,93 @@
     <link rel="stylesheet" href="./tailwind.css">
     <title>Halving de Bitcoin</title>
 </head>
-<body>
+<body class="">
     <header>
         <nav></nav>
     </header>
-    <main>
+    <main class="lg:px-64">
         <section>
-            <div id="home-inicio" class="w-full h-96 flex-none">
-                <div class="w-full h-96 p-8 space-y-2">
-                    <div id="img-halving" class=" h-2/3 bg-amber-400 bg-center bg-cover rounded-xl shadow-md">
+            <div id="home-inicio" class="w-full h-auto flex-none">
+                <div class="w-full h-auto p-8 space-y-2">
+                    <div id="img-halving" class="w-full h-48 bg-amber-300 bg-center bg-cover rounded-xl shadow-lg">
                     </div>
-                    <h1 class="font-bold flex bg-white justify-center items-center pt-3 text-xl ">¿Qué es el Halving?</h1>
-                    <div class="w-full h-1/3 flex justify-center items-center">
-                        <p class="font-serif text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam reprehenderit repellat velit animi commodi, labore adipisci voluptas porro cumque aut. .</p>
+                    <h1 class="font-bold flex  justify-center items-center pt-6 text-3xl ">¿Qué es el Halving?</h1>
+                    <div class="w-full h-auto pt-3 flex flex-col">
+                        <p class="font-serif text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam reprehenderit repellat velit animi commodi, labore adipisci voluptas porro cumque aut. .</p>
+                        <p class="font-serif text-lg">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam vitae amet eveniet quod minus veniam saepe dolor accusantium excepturi sint nisi laborum sunt, perferendis culpa, molestiae hic aliquam laboriosam? Rem.</p>
                     </div>
-                </div>
-            
-            </div>
-            <div id="home-2" class="px-8">
-                <div class="w-auto h-80 items-center mt-4 overflow-x-auto overscroll-x-contain flex space-x-6 scrollbar overflow-y-hidden pt-5">
-                    <div class="chartSize">
-                        <div class= "Graphics">
-                        </div>
-                    </div>
-                </div>
-                <div class="pt-5 w-full h-auto">
-                    <p class="font-serif text-sm">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste dolor distinctio placeat at ut ex officia est dicta molestiae obcaecati.</p>
                 </div>
             </div>
-
+        </section>
+        <section id="home-charts" class="px-6 flex items-center justify-center">
+            <div class="w-auto h-52 items-center mt-4 overflow-x-auto overscroll-x-contain flex space-x-6 scrollbar overflow-y-hidden">
+                <div class="chart_card">
+                    <div class="h-40 rounded-lg bg-sky-200 bg-center bg-cover">
+                    </div>
+                    <p class="font-semibold text-md flex justify-center items-center">Gráfico hasta 2014</p>
+                </div>
+                <div class="chart_card">
+                    <div class="h-40 rounded-lg bg-emerald-200 bg-center bg-cover">
+                    </div>
+                    <p class="font-semibold text-md flex justify-center items-center">Gráfico de 2014-2017</p>
+                </div>
+                <div class="chart_card">
+                    <div class="h-40 rounded-lg bg-amber-200 bg-center bg-cover">
+                    </div>
+                    <p class="font-semibold text-md flex justify-center items-center">Gráfico de 2017-2021</p>
+                </div>
+            </div>
+        </section>
+        <section id="projection" class="p-6">
+            <div>
+                <h2 class="font-bold text-2xl flex item-center justify-center">Proyección esperada para 2024-2025</h2>
+                <p class="font-serif text-lg pt-6 lg:flex lg:justify-center"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Id molestias quasi expedita? Molestias quasi quae pariatur deleniti a sapiente esse earum? Culpa quam magnam possimus, laboriosam aliquam minima. Similique, corrupti.</p>
+            </div>
+            <div class="pt-6 space-y-3 flex flex-col justify-center items-center ">
+                <p class="font-serif font-semibold text-2xl  pt-4">Calculadora para el halving</p>
+                <div class=" w-full flex space-x-4 h-auto pt-6 lg:items-center lg:justify-center">
+                    <input class="w-48 h-12 bg-gray-100 pl-4 rounded-2xl" placeholder="Inversión" type="number">
+                    <button class="w-20 flex justify-center items-center h-12 rounded-2xl bg-amber-200" type="submit">Calcular</button>
+                </div>
+                <div class="flex space-x-5 w-64 h-12 bg-emerald-100 justify-center  rounded-2xl p-6">
+                    <p class="flex justify-center items-center font-normal text-lg">Resultado:</p>
+                    <p class="flex justify-center items-center font-normal text-lg" >100</p>
+                </div>
+                
+            </div>
         </section>
     </main>
-    <footer></footer>
-    
+    <footer class="w-full h-32 p-3 px-52 bg-gray-300">
+        <div class="grid grid-cols-7 grid-rows-2 gap-4 h-20">
+            <div class="row-span-6 col-span-6 h-24  flex flex-col justify-center">
+                <a href="" class="font-light text-gray-700 text-sm">
+                    Website personal
+                </a>
+                <a href="" class="font-light text-gray-700 text-sm">
+                    FAQs
+                </a>
+                <a href="" class="font-light text-gray-700 text-sm">
+                    Contactame
+                </a>
+            </div>
+            <div class="col-span-1 row-span-3 h-24 flex flex-col">
+                <div class="grid grid-cols-1 grid-rows-4 h-28 justify-center">
+                    <div class="row-span-1 flex justify-center">
+                        <p class="flex justify-center text-sm font-extralight">₿</p>
+                        <div class="flex justify-center items-center">
+                            <svg width="10" height="10" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M3.172 5.17202C3.92211 4.42214 4.93934 4.00087 6 4.00087C7.06066 4.00087 8.07789 4.42214 8.828 5.17202L10 6.34302L11.172 5.17202C11.541 4.78998 11.9824 4.48525 12.4704 4.27561C12.9584 4.06598 13.4833 3.95563 14.0144 3.95102C14.5455 3.9464 15.0722 4.04761 15.5638 4.24873C16.0554 4.44986 16.502 4.74687 16.8776 5.12244C17.2532 5.49801 17.5502 5.94462 17.7513 6.4362C17.9524 6.92779 18.0536 7.45451 18.049 7.98562C18.0444 8.51674 17.934 9.04162 17.7244 9.52964C17.5148 10.0177 17.21 10.459 16.828 10.828L10 17.657L3.172 10.828C2.42212 10.0779 2.00085 9.06068 2.00085 8.00002C2.00085 6.93936 2.42212 5.92213 3.172 5.17202Z" fill="#3F3F46"/>
+                            </svg>
+                        </div>
+                        <p class="font-light text-sm">Donativos</p>
+                    </div>
+                    <div class="row-span-3 h-20 flex justify-center  rounded-md items-center">
+                        <div class="w-20 h-full bg-btc_qr bg-cover bg-center  rounded-md"></div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </footer>
 </body>
 </html>
