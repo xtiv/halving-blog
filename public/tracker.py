@@ -16,4 +16,4 @@ headers = {
 
 data = json.dumps(requests.get(url, params= params, headers=headers).json())
 data_processed = json.loads(data)
-print(data_processed["data"][0]["quote"]["USD"]["price"])
+print(round(data_processed["data"][0]["quote"]["USD"]["price"],3))
