@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "tw:build": "tailwind -i ./src/tailwind.css -o ./public/tailwind.css --watch"
+    "tw:build": "tailwind -i ./static/src/tailwind.css -o ./static/public/tailwind.css --watch"
   },
   "repository": {
     "type": "git",
@@ -19,7 +19,7 @@
   "homepage": "https://github.com/xtiv/halving-blog#readme",
   "devDependencies": {
     "autoprefixer": "^10.4.7",
-    "postcss": "^8.4.13",
+    "postcss": "^8.4.14",
     "tailwindcss": "^3.0.24"
   },
   "dependencies": {
