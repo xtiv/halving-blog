@@ -6,6 +6,10 @@
     @apply w-48 h-48 shadow-md rounded-lg flex-none transform transition-all hover:-translate-y-4 hover:shadow-xl
 }
 
+.logos {
+  @apply w-8 h-8 flex
+}
+
 @layer utilities {
     input[type="number"]::-webkit-inner-spin-button,
     input[type="number"]::-webkit-outer-spin-button {
@@ -13,3 +17,4 @@
       margin: 0;
     }
   }
+

@@ -8,6 +8,7 @@ module.exports = {
         halving_2: "url('/static/img/halving-2.png')",
         donativo: "url('/static/img/heart_money.png')",
         btc_qr: "url('/static/img/btc_address.jpeg')",
+        btc_logo:"url('/static/img/btc.png')",
       }
     },
   },
